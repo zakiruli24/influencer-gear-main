@@ -1,0 +1,31 @@
+*{
+    margin:0 auto;
+
+}
+.header-top{
+    width:90%;
+    height: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.header-top h3{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.header{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-header{
+    margin-top: 100px;
+
+}
+.top-header h2{
+    font-size: 45px;
+    margin-left: 0px;
+}
+.top-header p{
+    margin: 15px 0px;
+}
