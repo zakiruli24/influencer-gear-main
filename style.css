@@ -2,6 +2,9 @@
     margin:0 auto;
 
 }
+body{
+    font-family: 'popins', sans-serif;
+}
 .header-top{
     width:90%;
     height: 500px;
@@ -10,7 +13,7 @@
 }
 .header-top h3{
     margin-top: 60px;
-    margin-left: 95px;
+    margin-left: 75px;
 }
 
 .header{
@@ -39,4 +42,51 @@
     color: #fff;
     padding: 8px 18px;
     border-radius: 20px;
+}
+
+ /* ----------------------------
+     Popular Section Start
+  ------------------------- */
+
+.populars-section{
+    margin-top: 50px;
+}
+  .container{
+    width: 80% auto;
+}
+.second-section{
+    text-align: center;
+}
+
+.container{
+    margin-top: 25px;
+}
+
+.popular{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.popular-section{
+    background-color: lavenderblush;
+    padding: 15px 12px;
+    border-radius: 5px;
+
+}
+.popular-section h1{
+    margin: 10px 0px;
+}
+.popular-section h2{
+    margin-bottom: 10px;
+}
+.mark-icon{
+    display: flex;
+    float: left;
+}
+.mark-icon i{
+    font-size: 8px;
+    color: lightcoral;
+}
+.mark-tow p{
+    margin-left: 10px;
 }
