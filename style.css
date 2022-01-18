@@ -116,3 +116,15 @@ body{
 .footers-section h3{
     font-size: 27px;
 }
+.footer h3{
+    margin-bottom: 6px;
+}
+.footer p{
+    margin-bottom: 6px;
+}
+.footer-icon i{
+    padding:0px 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
